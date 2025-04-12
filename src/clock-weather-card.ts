@@ -50,13 +50,15 @@ console.info(
 })
 
 const gradientMap: Map<number, Rgb> = new Map()
-  .set(-20, new Rgb(0, 60, 98)) // dark blue
-  .set(-10, new Rgb(120, 162, 204)) // darker blue
+  .set(-20, new Rgb(140, 52, 253)) // violet
+  .set(-10, new Rgb(140, 52, 253)) // violet
+  .set(-5, new Rgb(0, 0, 255)) // blue
   .set(0, new Rgb(164, 195, 210)) // light blue
   .set(10, new Rgb(121, 210, 179)) // turquoise
   .set(20, new Rgb(252, 245, 112)) // yellow
   .set(30, new Rgb(255, 150, 79)) // orange
   .set(40, new Rgb(255, 192, 159)) // red
+
 
 @customElement('clock-weather-card')
 export class ClockWeatherCard extends LitElement {
