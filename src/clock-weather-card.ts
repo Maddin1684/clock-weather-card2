@@ -60,8 +60,8 @@ const gradientMap: Map<number, Rgb> = new Map()
   .set(40, new Rgb(255, 192, 159)) // red
 
 
-@customElement('clock-weather-card')
-export class ClockWeatherCard extends LitElement {
+@customElement('clock-weather-card2')
+export class ClockWeatherCard2 extends LitElement {
   // https://lit.dev/docs/components/properties/
   @property({ attribute: false }) public hass!: HomeAssistant
 
