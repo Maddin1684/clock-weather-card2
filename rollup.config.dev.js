@@ -7,7 +7,7 @@ import json from '@rollup/plugin-json'
 import image from '@rollup/plugin-image'
 
 export default {
-  input: ['src/clock-weather-card.ts'],
+  input: ['src/clock-weather-card2.ts'],
   output: {
     dir: './dist',
     format: 'es',
