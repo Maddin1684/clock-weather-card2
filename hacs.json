@@ -1,5 +1,9 @@
 {
-    "name": "Clock Weather Card 2",
-    "render_readme": true,
-    "filename": "clock-weather-card.js"
+  "name": "Clock Weather Card 2",
+  "author": "Maddin1684",
+  "description": "Eigenständige Version der Card",
+  "type": "plugin",
+  "files": [
+    "dist/clock-weather-card2.js"
+  ]
 }
